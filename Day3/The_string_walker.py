@@ -1,5 +1,4 @@
 word = "DATA"
-i = 0
-while i < len(word):
-    print(word[i])
-    i += 1
+for char in word:
+    print(char)
+    
