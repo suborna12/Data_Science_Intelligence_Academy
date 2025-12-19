@@ -3,9 +3,9 @@
 <p>A Dictionary is a Key-Value store. It is optimized for O(1) Lookup. When you search a List, Python scans left-to-right (O(N)). When you search a Dictionary, Python uses a "Hash Function" to calculate exactly where the data is in memory. It is instant, even with 1 million items.
 </p>
 <p>
-user = {"id" : 1, "name" : "Admin"}
-# Safe Access (.get) 
-# Returns None if key missing, prevents crash 
+user = {"id" : 1, "name" : "Admin"} </p> <p>
+# Safe Access (.get) </p> <p>
+# Returns None if key missing, prevents crash </p> <p>
 email = user.get("email","No Email Found")
 </p>
 # Iteration
