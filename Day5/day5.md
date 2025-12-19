@@ -16,6 +16,9 @@ for key, val in user.items():
 ``````
 <h1><strong>Goals:</strong> </h1>
 List Search (O(N)): Python must scan one element at a time from start to end. Dict/Set Search (O(1)): Python use hash table, gets a memory address, and looks only at that spot. No need for scanning.
+
 Direct access user ["key"] raises a KeyError if the key is missing, crashing the script. The method user.get("key", "Default") checks the Hash Table. If the bucket is empty.
+
 Create a dictionary that counts the frequency of each letter.
+
 Marge teo dictionary using the update operator | or .update()
