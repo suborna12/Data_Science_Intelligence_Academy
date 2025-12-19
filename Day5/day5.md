@@ -11,8 +11,8 @@ email = user.get("email","No Email Found")
 # Iteration
 for key, val in user.items(): 
     print (f"{key}: {val}") 
-<h5><strong>Goals:</strong></h5>
-
+    
+<h4><strong> Goals: </strong></h4>
 <p>
 1.List Search (O(N)): Python must scan one element at a time from start to end. Dict/Set Search (O(1)): Python use hash table, gets a memory address, and looks only at that spot. No need for scanning.</p>
 <p>
