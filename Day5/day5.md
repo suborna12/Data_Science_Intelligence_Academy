@@ -9,8 +9,9 @@ user = {"id" : 1, "name" : "Admin"}
 email = user.get("email","No Email Found")
 
 # Iteration
-for key, val in user.items(): 
-    print (f"{key}: {val}") 
+<p>for key, val in user.items(): 
+    print (f"{key}: {val}") </p>
+
     
 <h4><strong> Goals: </strong></h4>
 <p>
