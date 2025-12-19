@@ -9,6 +9,6 @@ user = {"id" : 1, "name" : "Admin"}
 # Returns None if key missing, prevents crash 
 email = user.get("email","No Email Found")
 
-##Iteration
+#Iteration
 for key, val in user.items(): 
     print (f"{key}: {val}") 
