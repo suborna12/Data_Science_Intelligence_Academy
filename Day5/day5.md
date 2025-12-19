@@ -12,3 +12,5 @@ email = user.get("email","No Email Found")
 #Iteration
 for key, val in user.items(): 
     print (f"{key}: {val}") 
+
+<h3><strong>Goals:</strong></h3>
