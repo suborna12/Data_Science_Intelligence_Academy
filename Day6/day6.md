@@ -8,7 +8,7 @@ def calculate_area(radius: float) -> float:
     if radius < 0:
         return 0 
     return 3.14 * (radius **2)
-``` ```
+``` 
 
 # Main Execution  
 r = 5 
