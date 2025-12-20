@@ -8,11 +8,12 @@ def calculate_area(radius: float) -> float:
     if radius < 0:
         return 0 
     return 3.14 * (radius **2)
-``` 
 
 # Main Execution  
 r = 5 
-print (calculate_area (r)) 
+print (calculate_area (r))
+```
+
 Goals:
 Local vs. Global Scope: When inside a function a variable is changes,Python creates a new local variable inside the function's stack frame. It does NOT touch the global. To modify the global, you would need the global keyword (but avoid this in production!).
 Every Python function returns something. If you do not explicitly write return value, Python implicitly executes return None.
