@@ -14,8 +14,8 @@ r = 5
 print (calculate_area (r))
 ```
 
-Goals:
-Local vs. Global Scope: When inside a function a variable is changes,Python creates a new local variable inside the function's stack frame. It does NOT touch the global. To modify the global, you would need the global keyword (but avoid this in production!).
-Every Python function returns something. If you do not explicitly write return value, Python implicitly executes return None.
-Default Arguments: In python if the caller provides no argument in function, Python grabs the stored default. This allows for flexible APIs where common settings are optional.
-Learn logical comparisons in python which already produce True or False without using if/else.
+#Goals:
+1.Understand that assigning a variable inside a function creates a local variable and does not change the global one.
+2.Learn that a function returns None if no return statement is used, even if it prints a value.
+3.Understand that default arguments are stored when the function is defined and used if no value is passed.
+4.Learn that comparison expressions directly return Boolean values and can be returned without if/else.
