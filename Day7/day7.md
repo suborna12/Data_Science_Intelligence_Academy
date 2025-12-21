@@ -14,3 +14,5 @@ while True:
     except ZeroDivisionError:  
         print ("Cannot divide by zero.") 
 ```
+
+<h3><b>Goals:</b></h3>
