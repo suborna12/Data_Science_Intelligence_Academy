@@ -4,6 +4,7 @@ try:
     print(f"After divided first number by second number the result: {num1 / num2}")
 
 except ZeroDivisionError:
-    print("Cannot divided by zer")
+    print("Cannot divided by zero")
 finally:
+
     print("Execusion complete")
