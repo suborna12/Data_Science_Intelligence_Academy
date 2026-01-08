@@ -7,8 +7,6 @@ class HashSet:
         index = calculate_hash(value) % self.total_buckets
         self.buckets[index] = value
 
-
-# Hash function
 def calculate_hash(value):
     return hash(value)
 
@@ -24,5 +22,6 @@ def set_contains(set, target):
 list_n = list(range(-1000, 1000))
 set_n = set(list_n)
 print(set_contains(set, -5))
+
 
     
